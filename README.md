@@ -26,16 +26,12 @@ chmod +x run_pipeline.sh scripts/*.sh
 Run the pipeline:
 
 ```bash
-./run_pipeline.sh <gene_name> <systematic_name> <prey_list_file> <prey_fasta_directory>
+./run_pipeline.sh <query_fasta_dir> <prey_fasta_dir>
 ```
 
-<gene_name>: Your gene/project name (used for output directories).
+<query_fasta_dir>: Directory containing exactly one .fas file (your query/bait sequence)
 
-<systematic_name>: Systematic name corresponding to the query FASTA file.
-
-<prey_list_file>: Text file listing prey proteins (used by batch_run.sh).
-
-<prey_fasta_directory>: Path to the directory containing prey FASTA files.
+<prey_fasta_dir>: Directory containing one or more .fas files (your prey sequences)
 
 Example:
 
@@ -50,3 +46,5 @@ The pipeline assumes your query FASTA file is located in <prey_fasta_directory>/
 Modify the scripts if you want to change output locations or parameters.
 
 You can run individual steps separately using the scripts in the scripts directory.
+
+You can split a file containing multiple fasta sequences into individual .fas files using splitter.sh.
