@@ -45,7 +45,7 @@ Example:
 
 ## Notes
 
-The pipeline assumes your query FASTA file is located in <prey_fasta_directory>/<systematic_name>.fas.
+The pipeline assumes your query FASTA file is located in <prey_fasta_directory>/<systematic_name>.fas. Please note they need the .fas extension
 
 Modify the scripts if you want to change output locations or parameters.
 
