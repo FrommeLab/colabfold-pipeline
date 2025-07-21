@@ -36,15 +36,15 @@ Run the pipeline:
 Example:
 
 ```bash
-./run_pipeline.sh YLR001C YNL123W prey_list.txt /data/proteins/cds/
+./run_pipeline.sh /home/user/example_inputs/query_dir /home/user/example_inputs/prey_dir
 ```
 
 ## Notes
 
-The pipeline assumes your query FASTA file is located in <prey_fasta_directory>/<systematic_name>.fas. Please note they need the .fas extension
+Please note FASTA files need a .fas extension
 
 Modify the scripts if you want to change output locations or parameters.
 
 You can run individual steps separately using the scripts in the scripts directory.
 
-You can split a file containing multiple fasta sequences into individual .fas files using splitter.sh.
+I typically get my prey list from Uniprot or SGD. These will usually provide you with one text file containing multiple fastas. You can split a file containing multiple fasta sequences into individual .fas files using splitter.sh.
