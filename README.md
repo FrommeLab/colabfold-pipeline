@@ -11,7 +11,8 @@ This repository provides a set of shell scripts to run ColabFold multimer predic
 ## Requirements
 
 - [LocalColabFold](https://github.com/YoshitakaMo/localcolabfold) installed and `colabfold_batch` accessible in your `$PATH`.
-- Your FASTA files organized appropriately (see example).
+- please make note of LocalColabFold requirements. A computer with a decent NVIDIA GPU and CUDA drivers are necessary.
+- Your FASTA files organized appropriately (see examples).
 
 ---
 
@@ -32,6 +33,8 @@ Run the pipeline:
 <query_fasta_dir>: Directory containing exactly one .fas file (your query/bait sequence)
 
 <prey_fasta_dir>: Directory containing one or more .fas files (your prey sequences)
+
+The query and prey FASTAs should contain nothing but a protein's primary sequence (asterisks at the end are fine).
 
 Example:
 
