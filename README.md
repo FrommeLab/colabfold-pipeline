@@ -1,10 +1,10 @@
-# ColabFold Multimer Batch Pipeline
+# LocalColabFold Batch Pipeline
 
 This repository provides a set of shell scripts to run ColabFold multimer predictions in batch mode. The pipeline:
 
-1. Combines query and prey FASTA files into ColabFold-compatible CSV inputs.
+1. Combine query and prey FASTA files into ColabFold-compatible CSV inputs.
 2. Runs ColabFold multimer predictions on these CSV files.
-3. Parses the resulting ipTM scores and averages them per interaction.
+3. Parses the resulting ipTM scores and averages them for each query-prey pair.
 
 ---
 
