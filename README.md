@@ -46,5 +46,3 @@ Please note FASTA files need a .fas extension
 Modify the scripts if you want to change output locations or parameters.
 
 You can run individual steps separately using the scripts in the scripts directory.
-
-I typically get my prey list from Uniprot or SGD. These will usually provide you with one text file containing multiple fastas. You can split a file containing multiple fasta sequences into individual .fas files using splitter.sh.
