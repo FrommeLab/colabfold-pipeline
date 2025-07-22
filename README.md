@@ -1,10 +1,10 @@
 # LocalColabFold Batch Pipeline
 
-This repository provides a set of shell scripts to run ColabFold multimer predictions in batch mode. The pipeline:
+This repository provides a set of shell scripts to run ColabFold multimer predictions in batches. The pipeline:
 
-1. Combine query and prey FASTA files into ColabFold-compatible CSV inputs.
-2. Runs Local-ColabFold on these CSV files.
-3. Grabs the resulting ipTM scores and averages them for each query-prey pair.
+1. Combine query and prey FASTA files into ColabFold-compatible CSV files.
+2. Run Local-ColabFold on these CSVs.
+3. Grab the resulting ipTM scores and averages them for each query-prey pair.
 
 ---
 
@@ -12,7 +12,7 @@ This repository provides a set of shell scripts to run ColabFold multimer predic
 
 - [LocalColabFold](https://github.com/YoshitakaMo/localcolabfold) installed and `colabfold_batch` accessible in your `$PATH`.
 - please make note of LocalColabFold requirements. A computer with a decent NVIDIA GPU and CUDA drivers are necessary.
-- Your FASTA files organized appropriately (see examples).
+- Your FASTA files organized and formatted appropriately (see examples).
 
 ---
 
@@ -46,7 +46,7 @@ Example:
 
 Modify the scripts if you want to change output locations or ColabFold parameters.
 
-Please note FASTA files need a .fas extension
+Please note FASTA files need a .fas extension.
 
 You can run individual steps separately using the scripts in the scripts directory.
 
