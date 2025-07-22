@@ -44,8 +44,11 @@ Example:
 
 ## Notes
 
+Modify the scripts if you want to change output locations or ColabFold parameters.
+
 Please note FASTA files need a .fas extension
 
-Modify the scripts if you want to change output locations or parameters.
-
 You can run individual steps separately using the scripts in the scripts directory.
+
+To generate a list of preys, I usually grab a list of proteins and their sequences from a database (e.g. UniProt, SGD, FlyBase) and split into individual FASTAs. 
+For example, you can grab the entire yeast proteome [here](http://sgd-archive.yeastgenome.org/sequence/S288C_reference/orf_protein/) or human small GTPases [here](https://rest.uniprot.org/uniprotkb/stream?compressed=true&download=true&format=fasta&query=%28%28family%3A%22small+GTPase+superfamily%22%29%29+AND+%28model_organism%3A9606%29).
