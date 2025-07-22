@@ -50,6 +50,8 @@ You will get standard ColabFold outputs (PDB format structural predictions, PAE 
 
 You will also get .txt files with either the individual or averaged ipTM scores for each run. For more info on the ipTM score, see a write-up [here](https://www.ebi.ac.uk/training/online/courses/alphafold/inputs-and-outputs/evaluating-alphafolds-predicted-structures-using-confidence-scores/confidence-scores-in-alphafold-multimer/).
 
+---
+
 ## Notes
 
 Modify the scripts if you want to change output locations or ColabFold parameters.
