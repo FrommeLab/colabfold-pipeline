@@ -31,10 +31,10 @@ echo "Starting pipeline for query '$query_name'..."
 echo "Step 1: Combining FASTAs..."
 bash ./scripts/combine.sh "$workdir" "$query_fasta_path" "$prey_fasta_dir"
 
-echo "Step 2: Running folding..."
+echo "Step 2: Running ColabFold..."
 bash ./scripts/batch_run.sh "$workdir"
 
-echo "Step 3: Parsing ipTM scores..."
+echo "Step 3: Grabbing ipTM scores..."
 bash ./scripts/iptm_parser.sh "$workdir"
 
 echo "Pipeline complete! Results are in $workdir/"
