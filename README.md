@@ -36,10 +36,10 @@ Run the pipeline:
 
 The query and prey FASTAs should contain nothing but a protein's primary sequence (asterisks at the end are fine).
 
-Example:
+Run using supplied examples:
 
 ```bash
-./run_pipeline.sh /home/user/example_inputs/query_dir /home/user/example_inputs/prey_dir
+./run_pipeline.sh /example_inputs/query_dir /example_inputs/prey_dir
 ```
 
 ---
