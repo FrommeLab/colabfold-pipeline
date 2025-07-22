@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # RCV. Last updated 22 July 2025
-# Usage: ./extract_longest_by_gene.sh input_fasta.txt [output_directory]
+# Usage: ./csplitter.sh input_fasta.txt [output_directory]
 
 set -e
 
