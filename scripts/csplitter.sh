@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # RCV. Last updated 22 July 2025
-# Usage: ./csplitter.sh input_fasta.txt [output_directory]
+# Usage: ./csplitter.sh input [output_directory]
 
 set -e
 
