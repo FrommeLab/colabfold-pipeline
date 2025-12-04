@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# RCV. Last updated 22 July 2025
+# RCV. Last updated 4 Dec 2025 2025
 # Usage: ./csplitter.sh input [output_directory]
 
 set -e
