@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# RCV. Last updated 21 July 2025
+# RCV. Last updated 4 Dec 2025
 # Usage: ./run_pipeline.sh <query_fasta_dir> <prey_fasta_dir>
 
 set -e
