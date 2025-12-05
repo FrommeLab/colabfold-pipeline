@@ -62,5 +62,5 @@ You can run individual steps separately using the scripts in the scripts directo
 
 It's recommended to run this pipeline inside a tmux or screen session, especially when using remote servers or SSH. This prevents disruptions if your SSH connection drops.
 
-To generate a list of preys, I usually grab a list of proteins and their sequences from a database (e.g. UniProt, SGD, FlyBase) and split into individual FASTAs. 
+To generate a list of preys, grab a list of proteins and their sequences from a database (e.g. UniProt, SGD, FlyBase) and split into individual FASTAs. 
 For example, you can grab the entire yeast proteome [here](http://sgd-archive.yeastgenome.org/sequence/S288C_reference/orf_protein/) or human small GTPases [here](https://rest.uniprot.org/uniprotkb/stream?compressed=true&download=true&format=fasta&query=%28%28family%3A%22small+GTPase+superfamily%22%29%29+AND+%28model_organism%3A9606%29). You can use either splitter.sh (if in doubt use this) or csplitter.sh (use for UniProt datasets if you're comfortable, this removes protein fragments and only keeps the largest isoform of a protein) to split one multi-FASTA into many FASTAs.
